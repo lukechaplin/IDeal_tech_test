@@ -2,7 +2,7 @@
 
 This is my submission for the iDeal tech test.
 
-It has been created using the Laravel framework and written using PSR-1 standards and using DocBlocks for documenting the code for readability and understanding purposes.
+It has been created using the Laravel framework and written using PSR-1 standards and DocBlocks for documenting the code for readability and understanding purposes.
 
 The solution takes into account the following problem statement:
 
