@@ -38,6 +38,24 @@ By use of the applicant entity class I am ensuring there is an adequate DTO avai
 
 I have included a UML diagram to show the relationship between the interfaces, the applicant processing class, the applicant entity class, the Api Service and the Api Factory classes.
 
+Code location:
+
+Entity Class
+
+`iDeal\app\EntityClass`
+
+Factory Class
+
+`iDeal\app\Factory`
+
+Interfaces
+
+`iDeal\app\Interfaces`
+
+Processing Class
+
+`iDeal\app\ProcessingClass`
+
 ## Further Work
 
 To take this solution forward there a number of improvements still required:
@@ -47,4 +65,5 @@ To take this solution forward there a number of improvements still required:
 - Update Api factory class to allow for error handling
 - Create database tables or key vault to store loan provider Api service credentials securely
 - Create error log table for capturing any errors within of the processing flow for further investigation
-- create command for calling the Api factory class and register with the application so it can be set to be explicitly called or called on a schedule as needed.
+- Create Feature (integration) and Unit test suites
+- Create command for calling the Api factory class and register with the application so it can be set to be explicitly called or called on a schedule as needed.
