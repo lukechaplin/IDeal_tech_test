@@ -2,6 +2,10 @@
 
 namespace iDeal\App\EntityClass;
 
+/**
+ * Class representing an applicant entity with relevant properties.
+ */
+
 class ApplicantEntityClass
 {
     private string $name;
