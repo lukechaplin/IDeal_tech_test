@@ -32,7 +32,7 @@ Maximum time to spend of this task: 1.5 hours
 
 ## Solution
 
-I have implemented SOLID and the factory design pattern within my code to allow for a clear seperations of concerns and loose coupling via the use of interfaces - this itself lends itself to clean architecture priniciples as well.
+I have implemented SOLID and the factory design pattern within my code to allow for a clear seperations of concerns and loose coupling via the use of interfaces - this itself lends itself to clean architecture principles as well.
 
 By use of the applicant entity class I am ensuring there is an adequate DTO available for transforming the data submitted by a user that can then be used flexibly by any of the loan providers Api services.
 
